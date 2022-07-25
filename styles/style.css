@@ -1,3 +1,28 @@
 * {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+body {
+    background-color: rgb(13, 17, 23);
+    color:aliceblue;
+
+    /* Top, right, bottom, left. */
+    margin: 5px 30px 30px 30px;
+}
+
+h1, h2 {
+    color: cadetblue;
+}
+
+nav{
+    text-align: right;
+}
+
+#name h1 {
+    font-size: 65px;
+    
+}
+
+#logo_nav {
+    width: 50px;
+}
