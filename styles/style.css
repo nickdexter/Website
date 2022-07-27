@@ -1,28 +1,90 @@
 * {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2 {
+    color: rgb(168, 255, 185);
+    text-align: center;
 }
 
 body {
     background-color: rgb(13, 17, 23);
-    color:aliceblue;
+    color: aliceblue;
 
     /* Top, right, bottom, left. */
-    margin: 5px 30px 30px 30px;
+
 }
 
-h1, h2 {
-    color: cadetblue;
+article,
+section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+    padding-left: 15%;
+    padding-right: 15%;
+
+    text-align: center;
 }
 
-nav{
-    text-align: right;
+.projects {
+    text-align: left;
 }
 
-#name h1 {
-    font-size: 65px;
-    
+header {
+    background-color: #333;
+    height: 40px;
+    overflow: hidden;
+    padding-top: 22px;
+    border-bottom: 2px solid rgb(97, 73, 146);
 }
 
-#logo_nav {
-    width: 50px;
+.link {
+    padding-right: 20px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+
+}
+
+.link:hover {
+    color: rgb(185, 168, 255)
+}
+
+#header-nav {
+    float: right;
+}
+
+#header_logo {
+    width: 60px;
+    padding-left: 15px;
+}
+
+#here {
+    color: rgb(97, 73, 146);
+}
+
+#name {
+    text-align: center;
+}
+
+#name-banner {
+    width: 30%;
+    height: auto;
+    padding-top: 90px;
+}
+
+#index_nav {
+    text-align: center;
+    padding-top: 30px;
+}
+
+#retropie_logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
