@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="..\..\styles\style.css">
     <meta charset="UTF-8">
@@ -7,11 +8,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects - Retropie</title>
 </head>
+
 <body>
-    <article id="retropie">
+    <article class="projects" id="retropie">
+        <img id="retropie_logo" src="..\..\images\retropie_logo.png">
         <p>
-            RetroPie is a free software library that allows you to emulate retro games on any type of raspberry pi, 
-            from the incredibly small pi zero, all the way up to the latest pi 4. 
+            RetroPie is a free software library that allows you to emulate retro games on any type of raspberry pi,
+            from the incredibly small pi zero, all the way up to the latest pi 4.
             This makes for a great compact and portable emulation machine.
         </p>
         <h2>Part List</h2>
@@ -27,31 +30,39 @@
             <li>8BitDo SF30</li>
         </ul>
         <h2>Initial Setup</h2>
-       <p>
-        Firstly I started off this project by flashing the RetroPie image to a freshly formatted 64gb micro sd card. 
-        I chose a large size because I wanted to make sure i had enough space to fit all the games i wanted as well 
-        as custom themes, videos, images, etc. Next i installed the Pi into the NESPi case, connected the included fans 
-        and heat sink, then screwed it all together. From here I plugged in everything to the Pi and connected it to a TV 
-        and booted it up successfully. Since I was using a wireless controller i had to temporarily connect a keyboard and 
-        navigate to the Bluetooth options to connect it.
+        <p>
+            Firstly I started off this project by flashing the RetroPie image to a freshly formatted 64gb micro sd card.
+            I chose a large size because I wanted to make sure i had enough space to fit all the games i wanted as well
+            as custom themes, videos, images, etc. Next i installed the Pi into the NESPi case, connected the included
+            fans
+            and heat sink, then screwed it all together. From here I plugged in everything to the Pi and connected it to
+            a TV
+            and booted it up successfully. Since I was using a wireless controller i had to temporarily connect a
+            keyboard and
+            navigate to the Bluetooth options to connect it.
         </p>
         <h2>Adding ROMs</h2>
         <p>
-            Secondly I used SSH to transfer all my ROMs directly from my PC to the Pi over the network. 
-            This method is a lot easier and convenient, skipping the step of switching the SD card from the Pi 
-            to my PC over, and over, every time I want to add new games. I made sure to enable SSH on the Pi first in 
-            the options and to connect to the same wireless network as my PC. Then used WinSCP to SSH to the Pi and simply 
+            Secondly I used SSH to transfer all my ROMs directly from my PC to the Pi over the network.
+            This method is a lot easier and convenient, skipping the step of switching the SD card from the Pi
+            to my PC over, and over, every time I want to add new games. I made sure to enable SSH on the Pi first in
+            the options and to connect to the same wireless network as my PC. Then used WinSCP to SSH to the Pi and
+            simply
             dumped all the ROM files I wanted onto the SD card.
         </p>
         <h2>Custom Themes</h2>
         <p>
-            Lastly I made sure everything was running correctly in each emulator, tweaked a  few settings and button mappings, 
-            then started to look as customizing the UI. There are hundreds of themes to choose from but I ended up settling 
+            Lastly I made sure everything was running correctly in each emulator, tweaked a few settings and button
+            mappings,
+            then started to look as customizing the UI. There are hundreds of themes to choose from but I ended up
+            settling
             on the pixel theme. I used the scraper inside of RetroPie to scrape each of the games images.
         </p>
         <p>From here my emulation machine was complete! The first game I jumped into was Pokemon Emerald.</p>
         <br>
+        <br>
         <p>Learn more about RetroPie from their website: <a href="https://retropie.org.uk">retropie.org.uk</a></p>
     </article>
 </body>
+
 </html>
